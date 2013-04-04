@@ -7,6 +7,7 @@ category: dev
 tags: [git dev]
 ---
 {% include JB/setup %}
+
 从local repo的所有commit里删除指定文件Rakefile
 
     $ git filter-branch --index-filter 'git rm --cached --ignore-unmatch Rakefile' --prune-empty --tag-name-filter cat -- --all
