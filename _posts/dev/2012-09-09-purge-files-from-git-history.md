@@ -3,8 +3,8 @@ layout: post
 title: "从git仓库彻底删除文件"
 tagline: "彻底删除误提交的文件"
 description: ""
-category: [ dev ]
-tags: [git dev]
+category: dev
+tags: [git, dev]
 ---
 {% include JB/setup %}
 
