@@ -3,7 +3,7 @@ layout: post
 title: "xx"
 tagline: "xxx"
 description: ""
-category: [ dev ]
-tags: [git dev]
+category: [ devxx ]
+tags: [git devxx]
 ---
 ccc test
