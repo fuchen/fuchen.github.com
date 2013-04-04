@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "xxx"
-tagline: ""
+title: "xx"
+tagline: "xxx"
 description: ""
-category: [ life ]
-tags: [ movie ]
+category: [ dev ]
+tags: [git dev]
 ---
-
 ccc test
