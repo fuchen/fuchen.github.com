@@ -2,7 +2,7 @@
 layout: post
 title: "《潘神的迷宫》杂感"
 description: ""
-category: life
+category: movie
 tags: [影评]
 ---
 {% include JB/setup %}

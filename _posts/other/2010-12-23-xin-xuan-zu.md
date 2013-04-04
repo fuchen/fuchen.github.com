@@ -2,7 +2,7 @@
 layout: post
 title: "大河剧《新选组》"
 description: "大河剧《新选组》剧评"
-category: life
+category: movie
 tags: [大河剧,影评]
 ---
 {% include JB/setup %}

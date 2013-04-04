@@ -2,7 +2,7 @@
 layout: post
 title: "死者代言人"
 description: ""
-category: life
+category: book
 tags: [书评]
 ---
 {% include JB/setup %}

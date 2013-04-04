@@ -2,7 +2,7 @@
 layout: post
 title: "做了个很科幻的梦"
 description: ""
-category: life
+category: other
 tags: [梦]
 ---
 {% include JB/setup %}

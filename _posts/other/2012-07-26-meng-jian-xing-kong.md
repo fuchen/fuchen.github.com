@@ -2,7 +2,7 @@
 layout: post
 title: "梦见星空"
 description: ""
-category: life
+category: other
 tags: [梦]
 ---
 {% include JB/setup %}
