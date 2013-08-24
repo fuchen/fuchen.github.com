@@ -1,27 +1,25 @@
 ---
 layout: post
-title: "给debian添加中文支持"
+title: "Display Chinese on Debian"
 description: ""
 category: dev
 tags: [git dev]
 ---
 {% include JB/setup %}
 
-## 中文支持 ##
-
 http://wiki.debian.org.hk/w/Make_Debian_support_Chinese
 
-查看区域设置：
+Check locale settings:
 
     locale -a
 
-改变/添加区域设置：
+Change/add locale settings:
 
     dpkg-reconfigure locales
 
-勾上 `zh_CN.GBK` 等，确定
+Check on `zh_CN.GBK`, and other related items, and confirm
 
-安装字体及输入法：
+Install font and Chinese input app:
 
     apt-get install scim
 
