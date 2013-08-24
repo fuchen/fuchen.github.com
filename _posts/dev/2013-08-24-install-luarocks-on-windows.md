@@ -3,7 +3,7 @@ layout: post
 title: "Install LuaRocks with Lua 5.2 on Windows 7"
 description: ""
 category: dev
-tags: [git dev]
+tags: [Lua]
 ---
 {% include JB/setup %}
 
