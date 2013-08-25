@@ -13,21 +13,23 @@ Below are steps to install LuaRocks 2.1.0 with Lua 5.2 on Windows, using Visual 
 
 2. Build lua52.dll, and lua5.2.exe. **Note**:
 
-  * Add `LUA_COMPAT_ALL` to *C/C++ Preprocessor Definition*
+     * Add `LUA_COMPAT_ALL` to *C/C++ Preprocessor Definition*
 
-  * *lua5.2.exe* has to depends on *lua52.dll*, otherwise you will see errors like "multiple VMs" when using a C module
+     * *lua5.2.exe* has to depends on *lua52.dll*, otherwise you will see errors like "multiple VMs" when using a C module
 
 3. Copy executable files, libraries, and source code to a folder. The folder structure looks like:
 
-    LuaFolder/
-      |-bin/
-      | |-lua5.2.exe
-      | |-lua52.dll
-      | `-luac5.2.exe(Optional?)
-      |-lib/
-      | `-lua52.lib
-      |-include/
-        ` Header files from Lua source code
+        LuaFolder/
+          |-bin/
+          | |-lua5.2.exe
+          | |-lua52.dll
+          | |-luac5.2.exe(Optional?)
+          |
+          |-lib/
+          | |-lua52.lib
+          |
+          |-include/
+            |-Header files from Lua source code
 
 4. Download and unpack [LuaRocks](http://luarocks.org/releases/). I am using version 2.1.0.
 
@@ -41,9 +43,10 @@ Below are steps to install LuaRocks 2.1.0 with Lua 5.2 on Windows, using Visual 
 
 8. Additional paths:
 
-    PATH      : %LuaRocksDir%/bin
-    LUA_CPATH : %LuaRocksDir%/lib\lua\5.2
+        PATH      : %LuaRocksDir%/bin
+        LUA_CPATH : %LuaRocksDir%/lib\lua\5.2
 
 Done!
 
 To install a Lua module using LuaRocks, you have to open a command line window with Visual Studio environment, then enjoy `luarocks install xxx`!
+
